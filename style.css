@@ -1,21 +1,29 @@
 body {
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  input[type=number], button {
-    border-radius: 10px;
-  }
-  
-  output {
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    background-color: white;
-    color: black;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+input[type=number], output {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+output {
+  margin-top: 20px;
+}
